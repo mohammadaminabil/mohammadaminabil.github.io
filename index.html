@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54a00cf03a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">My Creation</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Mechanical Engineer</p>
+            <h1>Hallo, I'm <span>Mohammad</span> <br>Amin Abil</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Background 1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a seasoned professional committed to providing the highest quality work. With a strong educational background and expertise in machine design, I am always eager to face new challenges and learn from experience. I have the ability to adapt quickly, work efficiently in time, and be able to overcome problems with creative solutions. In addition, good communication skills allow me to interact effectively with various parties. I look forward to positively contributing and developing with a dynamic and innovative company</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('award')">Award</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>OFFICE</span><br>Office Tools</li>
+                        <li><span>DESIGN CAAD</span><br>Autodesk Inventor</li>
+                        <li><span>SOFTWARE ENGINEERING</span><br>Phyton, HTML, CSS</li>
+                        <li><span>ANALSYS FINITE ELEMEN METHOD</span><br>Autodesk Inventor & ANSYS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>MAGANG PT. NAYATI INDONESIA 2017/2018</span><br>Lathe & CNC 2-axis Machine Operators</li>
+                        <li><span>LSO MEKATRONIC UMM 2020/2022</span><br>Chassis and Vehicle Dynamics Division</li>
+                        <li><span>MAGANG PT. DIRGANTARA INDONESIA 2022</span><br>Continous Airworthiness Division</li>
+                        <li><span>LSO MEKATRONIC UMM 2022/2023</span><br>Chairman</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SD 018 SAMARINDA ULU 2007/2013</span><br>Students</li>
+                        <li><span>SMP 17 MALANG 2013/2016</span><br>Students</li>
+                        <li><span>SMK PGRI 3 MALANG 2016/2019</span><br>Engineering Students</li>
+                        <li><span>UNIVERSITY of MUHAMMADIYAH MALANG 2019/2023</span><br>Mechanical Engineering Students</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="award">
+                    <ul>
+                        <li><span>LOMBA KOMPETENSI SISWA WILKER 2019</span><br>Computer-Aided Design and Development Category</span><br>Top 5 nomination</li>
+                        <li><span>LOMBA KOMPETENSI SISWA PROVINSI 2019</span><br>Computer-Aided Design and Development Category</span><br>3rd place</li>
+                        <li><span>KONTES KAPAL CEPAT TAK BERAWAK NASIONAL 2021</span><br>The Performance Category of Fuel Engine Remote Control Ships</span><br>1st winner, Best Design, 1st place Fun Battle</li>
+                        <li><span>KONTES MOBIL HEMAT ENERGI NASIONAL 2022</span><br>Prototipe Etanol Category</span><br>3rd place</li>
+                        <li><span>THAILAND INVENTORS DAY 2023</span><br>Energy Category</span><br>Bronze Medal, with the title of scientific work "Water Electrolsys Hidrogen"</li>
+                        <li><span>SHELL ECO MARATHON ASIA PACIFIC 2023</span><br>Urban Concept Electric Category</span><br>5th Place in Asia Pacific</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Creation</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2>Machine Design Calculation Phyton Script</h2>
+                <p>My Phyton Script</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>My 3D Design Tutorial Videos</h2>
+                <p>My Tutorial Videos</p>
+                <a href="https://drive.google.com/drive/folders/1oEpvBojfDNOpRwbZADl0cyiK9loEEhji?usp=share_link">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-trophy"></i>
+                <h2>Award Certificate</h2>
+                <p>My Certificate</p>
+                <a href="https://drive.google.com/drive/folders/1Dcgw-_ZHohdOdOs8GOXlb1xov203BXGm?usp=share_link">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Design</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="1.png">
+                <div class="layer">
+                <h3>Prototipe Transmisi Manual</h3>
+                <P>Desain transmisi dengan 5 percepatan dan 1 gear reverse</P>
+                <a href="https://drive.google.com/drive/folders/1tnFVtfWQsjWSdoihBw9TMX-aLLwdTB_a?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="2.png">
+                <div class="layer">
+                <h3>Grinder Kopi</h3>
+                <P>Desain grinder kopi berkapasitas 0,5kg, dengan mata pisau penggilingan yang dapat diganti</P>
+                <a href="https://drive.google.com/drive/folders/1ZsPGxprjvHRQtXgNKiw9uIzrUjRLHCKl?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="3.png">
+                <div class="layer">
+                <h3>Charge Micro Jet-2099</h3>
+                <P>Desain mesin ini berjenis turbojet, dapat menghasilkan trush atau gaya dorong sebesar 640 Newton</P>
+                <a href="https://drive.google.com/drive/folders/1VoBf2nEbSYGhq74iVRGLq7Ele1n5HDow?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="4.png">
+                <div class="layer">
+                <h3>E-H1</h3>
+                <P>Desain mesin ini bertujuan meng-elektrolisis air menjadi Hidrogen</P>
+                <a href="https://drive.google.com/drive/folders/1TaF3tJRdNQemqw800rITQ1uSlSOhceun?usp=share_link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="5.png">
+                <div class="layer">
+                <h3>Mesin Pencacah Rumput</h3>
+                <P>Desain mesin ini dapat mencacah rumput gajah untuk pakan ternak sapi atau kambing</P>
+                <a href="https://drive.google.com/drive/folders/1t4jmBkTvE05GLDNbyMGymLdQidML-rIT?usp=share_link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="6.png">
+                <div class="layer">
+                <h3>Mesin Pengupas Sabut Kelapa</h3>
+                <P>Desain mesin ini dapat mengupas dan membelah kelapa dengan satu kali pengerjaan, dibekali dengan motor diesel 15HP</P>
+                <a href="https://drive.google.com/drive/folders/1Kd2rb1ekquCRAlOpYTh61nAiwcCMLVYA?usp=share_link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="smr">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titel">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>m.aminabil.tpb@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+62 852 3607 5972</p>
+                <div class="social-icon">
+                    <a href="https://instagram.com/m.aminabil?igshid=NGExMmI2YTkyZg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/maminadit.aminadit?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></i></a>
+                    <a href="https://www.linkedin.com/in/amin-abil-0b597b240"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1maGb1YhNX2Cfr36G9jbVWCc5jW8J51gu/view?usp=drivesdk" download class="smr smrr">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
+
